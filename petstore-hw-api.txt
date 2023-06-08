@@ -1,0 +1,18 @@
+#домашка на 8.06
+Доробити набір тестів для https://petstore.swagger.io/#/
+
+Тайтли тестів:
+
+1. 'Pet creation'
+2. Get pet with id ${pet.id}
+3. Update pet with id ${pet.id}
+4. Find pet by status ${pet.status}
+
+___________________ Пункти вище зроблені на занятті, а ті що нижче доробити вдома:
+
+5. Update pet with id ${pet.id} using form data
+6. Delete pet with id ${pet.id}
+
+там де виконується Update та Delete, додатково, в рамках одного тесту необхідно виконувати GET запит в якості перевірки
+
+Не забудьте створити репозиторій з пустим master/main, додати .gitignore і домашку закинути окремим ПР.
